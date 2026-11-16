@@ -1,0 +1,30 @@
+// objetivo: Recursos da placa, parâmetro de capacidade, leitura e escrita de hardware, condição de presença (seções 10 e 19)
+// esperado: ok
+makhallam delguma {
+    makhallam_ra_za botao = makhallam_ka(2);
+    makhallam_ullu_ra sensor = makhallam_ka_ullu(0);
+    makhallam_ullu_ta motor = makhallam_ka(3) : 0;
+    makhallam_ta led = makhallam_ka(13) : ithir_nu;
+    makhallam_ra entrada = makhallam_ka(4);
+}
+ayanuz ayanuz_nu ajustar(makhallam_ullu_ta saida, ayan_ka_nu intensidade) delguma {
+    ayanuz_ta ullu_ta intensidade makhallam_ri saida;
+}
+athara delguma {
+    akashan_mi 9600;
+}
+nashkad delguma {
+    ayan_ka_nu<16> leitura = ullu_ra sensor;
+    ayan_ka_nu potencia = ayan_ka_nu(leitura / 4);
+    makhan_ra ithir_ra botao == ithir_nu delguma {
+        ayanuz_ta ajustar(motor, potencia);
+    } makhan_ra_nu delguma {
+        ayanuz_ta ajustar(motor, 0);
+    }
+    makhan_ra akashan_ra makhallam_ri recebido delguma {
+        ayanuz_ta akashan_ta recebido;
+    }
+    ayanuz_ta ithir_ta ithir_za makhallam_ri led;
+    ayanuz_ta ullu_ta 128 makhallam_ri motor;
+    ayanuz_ta athara_nu athara_ka(1, 100);
+}

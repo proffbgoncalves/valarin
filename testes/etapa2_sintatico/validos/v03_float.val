@@ -1,0 +1,12 @@
+// objetivo: Tipo ullu, função com retorno e chamada dentro de expressão (seção 6.1)
+// esperado: ok
+makhallam delguma {}
+ayanuz ullu media(ullu primeiro, ullu segundo) delguma {
+    ayanuz_ne (primeiro + segundo) / 2.0;
+}
+athara delguma {
+    akashan_mi 9600;
+    ullu temperatura = media(21.5, 22.5);
+    ayanuz_ta akashan_ne temperatura;
+}
+nashkad delguma {}

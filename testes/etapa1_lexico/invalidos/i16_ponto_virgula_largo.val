@@ -1,0 +1,3 @@
+// objetivo: Ponto e vírgula de largura total não é o token SEMI
+// esperado: erro léxico 3:18 caractere inválido: ；
+ayan_ka valor = 1；

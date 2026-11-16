@@ -1,0 +1,7 @@
+// objetivo: Escrita PWM com valor e destino na ordem errada
+// esperado: erro sintático 6:29 mismatched input '128'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayanuz_ta ullu_ta motor 128;
+}

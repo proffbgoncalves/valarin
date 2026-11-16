@@ -1,0 +1,1 @@
+// objetivo: Com CR isolado como quebra de linha, a linha do erro é contada corretamente// esperado: erro léxico 5:13 caractere inválido: @ayan_ka a = 1;ayan_ka b = 2;ayan_ka c = @;

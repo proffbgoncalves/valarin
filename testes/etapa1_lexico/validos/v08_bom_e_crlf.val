@@ -1,0 +1,5 @@
+﻿// objetivo: Arquivo com BOM UTF-8 e quebras CRLF é lido normalmente
+// esperado: ok
+// tokens: HARDWARE IN LBRACE RBRACE SETUP IN LBRACE RBRACE
+makhallam delguma {}
+athara delguma {}

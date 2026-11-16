@@ -1,0 +1,7 @@
+// objetivo: makhan_ra sem delguma e sem bloco
+// esperado: erro sintático 6:25 mismatched input 'ayanuz_ta'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    makhan_ra makhan_za ayanuz_ta akashan_ne 1;
+}

@@ -1,0 +1,4 @@
+// objetivo: Maior casamento: makhan_ra_nu é ELSE, nuvem é identificador, 0xE+1 são três tokens e -2.5 é MINUS + FLOAT_LITERAL
+// esperado: ok
+// tokens: IDENTIFIER=makhan_ra_x IDENTIFIER=nuvem ELSE=makhan_ra_nu NOT=nu INT_LITERAL=0xE PLUS=+ INT_LITERAL=1 MINUS=- FLOAT_LITERAL=2.5
+makhan_ra_x nuvem makhan_ra_nu nu 0xE+1 -2.5

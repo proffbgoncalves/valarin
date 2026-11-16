@@ -1,0 +1,6 @@
+// objetivo: Conteúdo depois do fechamento de nashkad
+// esperado: erro sintático 6:1 expecting <EOF>
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {}
+nashkad delguma {}

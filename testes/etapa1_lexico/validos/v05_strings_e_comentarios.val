@@ -1,0 +1,8 @@
+// objetivo: Strings com os escapes permitidos; // e /* dentro de string são texto; aspas dentro de comentário não abrem string
+// esperado: ok
+// tokens: STRING_LITERAL STRING_LITERAL STRING_LITERAL STRING_LITERAL ACTION=ayanuz_ta
+"Ola" "a // b /* c */" "x\n\t\"ok\"\\" "Ola\r"
+// comentario com "aspas" e /* nada */
+/* bloco com "aspas",
+   varias linhas e // marcador */
+ayanuz_ta

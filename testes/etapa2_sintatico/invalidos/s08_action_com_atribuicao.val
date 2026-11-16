@@ -1,0 +1,7 @@
+// objetivo: ayanuz_ta não introduz atribuição
+// esperado: erro sintático 6:21 mismatched input '='
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayanuz_ta valor = 1;
+}

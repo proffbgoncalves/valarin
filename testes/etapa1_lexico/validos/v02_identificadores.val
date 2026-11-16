@@ -1,0 +1,5 @@
+// objetivo: Identificadores comuns, prefixos de reservadas e __; akashan é reservada e a forma com acentos não (sem transliteração)
+// esperado: ok
+// tokens: IDENTIFIER=contador IDENTIFIER=limite IDENTIFIER=valor IDENTIFIER=calma_1 IDENTIFIER=instanteInicial IDENTIFIER=nashkadSensor IDENTIFIER=nuvem IDENTIFIER=makhan_ra_x IDENTIFIER=__interno IDENTIFIER=akašān SERIAL_PRINT=akashan
+contador limite valor calma_1 instanteInicial nashkadSensor nuvem makhan_ra_x __interno
+akašān akashan

@@ -1,0 +1,36 @@
+// objetivo: Quatro formas de repetição, cabeçalho do for com partes vazias, else aninhado, seleção e retorno vazio
+// esperado: ok
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayan_ka_nu contador = 0;
+    nashkad_ra contador < 3 delguma {
+        contador = contador + 1;
+    }
+    nashkad_mi_ri (;;) delguma {
+        nashkad_ne;
+    }
+    nashkad_mi_ri (contador = 0; ; ) delguma {
+        nashkad_ne;
+    }
+    nashkad_mi_ri (ayanuz_ta preparar(); contador < 3; ayanuz_ta avancar()) delguma {
+        nashkad_ri;
+    }
+    makhan_ra contador > 10 delguma {
+        ayanuz_ta akashan_ne 2;
+    } makhan_ra_nu delguma {
+        makhan_ra contador == 10 delguma {
+            ayanuz_ta akashan_ne 1;
+        } makhan_ra_nu delguma {
+            ayanuz_ta akashan_ne 0;
+        }
+    }
+    makhan_sha_ka contador delguma {
+        makhan_sha_za 1 delguma { ayanuz_ta akashan_ne 10; }
+        makhan_sha_za 2 delguma { ayanuz_ta akashan_ne 20; }
+    }
+    nashkad_ka 3 delguma {
+        ayanuz_ta akashan_ne "Ola";
+    }
+    ayanuz_ne;
+}

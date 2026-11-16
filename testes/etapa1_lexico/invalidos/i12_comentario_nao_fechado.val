@@ -1,0 +1,4 @@
+// objetivo: Comentário de bloco sem */
+// esperado: erro léxico 4:1 comentário de bloco não fechado
+ayan_ka valor = 1;
+/* comentario sem fim

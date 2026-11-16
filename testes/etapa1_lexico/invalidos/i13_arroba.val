@@ -1,0 +1,3 @@
+// objetivo: @ não pertence a nenhum token
+// esperado: erro léxico 3:20 caractere inválido: @
+ayan_ka_nu valor = @;

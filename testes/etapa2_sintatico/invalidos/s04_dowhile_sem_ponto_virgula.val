@@ -1,0 +1,7 @@
+// objetivo: Condição final do laço do-while sem ponto e vírgula
+// esperado: erro sintático 7:1 missing ';'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    nashkad_ta delguma {} nashkad_ra makhan_nu
+}

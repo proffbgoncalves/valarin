@@ -1,0 +1,7 @@
+// objetivo: Declaração local exige inicializador
+// esperado: erro sintático 6:21 mismatched input ';'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayan_ka_nu valor;
+}

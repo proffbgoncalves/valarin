@@ -1,0 +1,7 @@
+// objetivo: Cabeçalho do for com apenas um separador
+// esperado: erro sintático 6:31 missing ';'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    nashkad_mi_ri (; makhan_za) delguma {}
+}

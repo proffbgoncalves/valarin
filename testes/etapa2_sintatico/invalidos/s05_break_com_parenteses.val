@@ -1,0 +1,7 @@
+// objetivo: nashkad_ne não recebe parênteses
+// esperado: erro sintático 6:15 mismatched input '('
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    nashkad_ne();
+}

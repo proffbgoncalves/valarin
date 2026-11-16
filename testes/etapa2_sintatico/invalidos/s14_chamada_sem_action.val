@@ -1,0 +1,7 @@
+// objetivo: Chamada como comando exige ayanuz_ta
+// esperado: erro sintático 6:12 missing '='
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    mostrar(5);
+}

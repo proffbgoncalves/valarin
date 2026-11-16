@@ -1,0 +1,3 @@
+// objetivo: Prefixo hexadecimal sem dígitos
+// esperado: erro léxico 3:20 numeral inválido: 0x
+ayan_ka_nu valor = 0x;

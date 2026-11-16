@@ -1,0 +1,15 @@
+// objetivo: Operações sobre bits com largura obrigatória (seção 9.1)
+// esperado: ok
+makhallam delguma {}
+athara delguma { akashan_mi 9600; }
+nashkad delguma {
+    ayan_ka_nu valor = 0b10101100;
+    ayan_ka_nu mascara = 0b00001111;
+    ayan_ka_nu resultado = ayan_ya<8>(valor, mascara);
+    ayan_ka_nu a = ayan_sha<8>(0xA0, 0x0F);
+    ayan_ka_nu b = ayan_sha_nu<8>(0xAA, 0x0F);
+    ayan_ka_nu c = ayan_nu<8>(0x0F);
+    ayan_ka_nu d = ayan_kha<8>(1, 3);
+    ayan_ka_nu e = ayan_tha<8>(0x80, 7);
+    ayanuz_ta akashan_ne resultado;
+}

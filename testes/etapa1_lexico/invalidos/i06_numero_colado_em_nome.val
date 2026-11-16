@@ -1,0 +1,3 @@
+// objetivo: Sequência iniciada por dígito não é identificador nem número
+// esperado: erro léxico 3:12 numeral inválido: 2contador
+ayan_ka_nu 2contador = 1;

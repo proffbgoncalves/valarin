@@ -1,0 +1,4 @@
+// objetivo: Todos os operadores e delimitadores (nomes de token escolhidos pelo grupo)
+// esperado: ok
+// tokens: EQ NEQ LE GE ASSIGN LT GT PLUS MINUS STAR SLASH PERCENT COLON SEMI COMMA LPAREN RPAREN LBRACE RBRACE LBRACK RBRACK
+== != <= >= = < > + - * / % : ; , ( ) { } [ ]

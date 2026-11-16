@@ -1,0 +1,7 @@
+// objetivo: makhallam_ri e o destino antes da operação
+// esperado: erro sintático 6:15 extraneous input 'makhallam_ri'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayanuz_ta makhallam_ri led ithir_ta ithir_za;
+}

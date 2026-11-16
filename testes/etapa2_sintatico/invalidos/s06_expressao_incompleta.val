@@ -1,0 +1,7 @@
+// objetivo: Operador + sem operando à direita
+// esperado: erro sintático 6:28 mismatched input ';'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayan_ka_nu valor = 1 + ;
+}

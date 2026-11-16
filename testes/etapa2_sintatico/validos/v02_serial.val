@@ -1,0 +1,10 @@
+// objetivo: Inicialização serial, impressão de texto e espera (seções 4 e 10)
+// esperado: ok
+makhallam delguma {}
+athara delguma {
+    akashan_mi 9600;
+}
+nashkad delguma {
+    ayanuz_ta akashan_ne "Ola";
+    ayanuz_ta athara_nu athara_ka(1, 1);
+}

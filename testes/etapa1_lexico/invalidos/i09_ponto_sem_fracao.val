@@ -1,0 +1,3 @@
+// objetivo: Ponto sem parte fracionária (5.)
+// esperado: erro léxico 3:14 numeral inválido: 5.
+ullu valor = 5.;

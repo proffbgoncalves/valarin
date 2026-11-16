@@ -1,0 +1,7 @@
+// objetivo: Não existe else if sem as chaves intermediárias
+// esperado: erro sintático 6:41 mismatched input 'makhan_ra'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    makhan_ra x delguma {} makhan_ra_nu makhan_ra y delguma {}
+}

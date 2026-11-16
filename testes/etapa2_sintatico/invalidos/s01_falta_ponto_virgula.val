@@ -1,0 +1,7 @@
+// objetivo: Declaração sem ponto e vírgula
+// esperado: erro sintático 7:1 missing ';'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayan_ka_nu contador = 1
+}

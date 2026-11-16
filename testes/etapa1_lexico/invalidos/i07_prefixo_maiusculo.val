@@ -1,0 +1,3 @@
+// objetivo: Prefixo numérico em maiúscula (0XFF) é inválido
+// esperado: erro léxico 3:20 numeral inválido: 0XFF
+ayan_ka_nu valor = 0XFF;

@@ -1,0 +1,5 @@
+// objetivo: Inteiros decimal, binário e hexadecimal e literais de ponto flutuante (seções 5.2 e 6.1.1)
+// esperado: ok
+// tokens: INT_LITERAL=0 INT_LITERAL=25 INT_LITERAL=9600 INT_LITERAL=0b1010 INT_LITERAL=0x0A INT_LITERAL=0xFF FLOAT_LITERAL=0.5 FLOAT_LITERAL=1.0 FLOAT_LITERAL=25.75 FLOAT_LITERAL=1e3 FLOAT_LITERAL=2.5e-2 FLOAT_LITERAL=1e+2
+0 25 9600 0b1010 0x0A 0xFF
+0.5 1.0 25.75 1e3 2.5e-2 1e+2

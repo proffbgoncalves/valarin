@@ -1,0 +1,20 @@
+// objetivo: Funções, procedimento, retorno sem valor e chamadas com ayanuz_ta (seções 17 e 18)
+// esperado: ok
+makhallam delguma {}
+ayanuz ayan_ka_nu somar(ayan_ka_nu primeiro, ayan_ka_nu segundo) delguma {
+    ayanuz_ne primeiro + segundo;
+}
+ayanuz ayanuz_nu mostrar(ayan_ka_nu valor) delguma {
+    ayanuz_ta akashan_ne valor;
+}
+ayanuz ayanuz_nu avisar() delguma {
+    ayanuz_ne;
+}
+athara delguma {
+    akashan_mi 9600;
+    ayan_ka_nu resultado = somar(2, 3);
+    ayanuz_ta mostrar(resultado);
+    ayanuz_ta somar(2, 3);
+    ayanuz_ta avisar();
+}
+nashkad delguma {}

@@ -1,0 +1,7 @@
+// objetivo: Comparações não podem ser encadeadas
+// esperado: erro sintático 6:37 mismatched input '<'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    makhan_ka r = contador < limite < 10;
+}

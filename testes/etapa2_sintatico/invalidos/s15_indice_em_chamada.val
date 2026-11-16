@@ -1,0 +1,7 @@
+// objetivo: Não se aplica [] a uma chamada
+// esperado: erro sintático 6:27 missing ';'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayan_ka_nu v = obter()[0];
+}

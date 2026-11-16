@@ -1,0 +1,4 @@
+// objetivo: Programa sem o bloco makhallam
+// esperado: erro sintático 3:1 mismatched input 'athara'
+athara delguma {}
+nashkad delguma {}

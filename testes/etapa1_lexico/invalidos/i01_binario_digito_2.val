@@ -1,0 +1,3 @@
+// objetivo: O dígito 2 não pertence à base binária
+// esperado: erro léxico 3:20 numeral inválido: 0b102
+ayan_ka_nu valor = 0b102;

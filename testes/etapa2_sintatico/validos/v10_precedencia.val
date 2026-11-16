@@ -1,0 +1,14 @@
+// objetivo: Precedência e associatividade dos operadores, nu, menos unário e conversões (seção 9)
+// esperado: ok
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayan_ka_nu contador = 10 + 5 * 2;
+    makhan_ka limite = contador >= 10;
+    limite = contador > 0 makhan_ya contador < 20;
+    limite = nu limite;
+    limite = nu makhan_za makhan_sha makhan_nu makhan_ya limite;
+    contador = -contador * 2 + contador % 3 - (1 + 2) / 3;
+    limite = contador == 1 makhan_sha contador != 2 makhan_ya contador <= 3;
+    ayan_ka_nu t = ayan_ka_nu(ayan_ka_nu<16>(contador) * 2);
+}

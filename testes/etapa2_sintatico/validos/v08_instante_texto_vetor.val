@@ -1,0 +1,22 @@
+// objetivo: Instante global sem inicializador, texto constante, vetor como parâmetro e retorno, opcional serial (seções 6, 8 e 20)
+// esperado: ok
+makhallam delguma {}
+athara_ne akashan_ka mensagem = "Ola\n";
+athara_ka<athara_ra> instanteInicial;
+[ayan_ka_nu; 3] tabela = [10, 20, 30];
+ayanuz [ayan_ka_nu; 3] copiar([ayan_ka_nu; 3] origem) delguma {
+    ayanuz_ne origem;
+}
+athara delguma {
+    instanteInicial = athara_ra;
+}
+nashkad delguma {
+    athara_ka decorrido = athara_ra - instanteInicial;
+    tabela[0] = 15;
+    [ayan_ka_nu; 3] outra = copiar([1, 2, 3]);
+    akashan_ka_sha opcional = akashan_ra;
+    ithir_ka nivel = ithir_za;
+    makhan_ka ok = makhan_za;
+    ayan_ka<16> pequeno = -5;
+    ullu f = ullu(2) + 1.5e-2;
+}

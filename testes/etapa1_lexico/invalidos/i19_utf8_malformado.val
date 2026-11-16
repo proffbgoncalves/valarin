@@ -1,0 +1,3 @@
+// objetivo: Bytes que não formam UTF-8 válido causam erro de leitura (sem substituição silenciosa)
+// esperado: erro de leitura
+ayan_ka valor = 1; // �(

@@ -1,0 +1,46 @@
+// objetivo: Programa completo da seção 25: constante, função, procedimento, vetor, os quatro laços, seleção, break e continue
+// esperado: ok
+makhallam delguma {
+    makhallam_ta led = makhallam_ka(13) : ithir_nu;
+}
+athara_ne ayan_ka_nu limite = 3;
+ayanuz ayan_ka_nu somar(ayan_ka_nu primeiro, ayan_ka_nu segundo) delguma {
+    ayanuz_ne primeiro + segundo;
+}
+ayanuz ayanuz_nu mostrar(ayan_ka_nu valor) delguma {
+    ayanuz_ta akashan_ne valor;
+}
+athara delguma {
+    akashan_mi 9600;
+}
+nashkad delguma {
+    [ayan_ka_nu; 3] valores = [1, 2, 3];
+    nashkad_mi_ri (ayan_ka_nu indice = 0;
+         indice < limite;
+         indice = indice + 1) delguma {
+        makhan_ra indice == 1 delguma {
+            nashkad_ri;
+        }
+        ayanuz_ta mostrar(valores[indice]);
+    }
+    ayan_ka_nu valor = somar(1, 1);
+    makhan_sha_ka valor delguma {
+        makhan_sha_za 2 delguma {
+            ayanuz_ta ithir_ta ithir_za makhallam_ri led;
+        }
+        makhan_ra_nu delguma {
+            ayanuz_ta ithir_ta ithir_nu makhallam_ri led;
+        }
+    }
+    nashkad_ta delguma {
+        valor = valor - 1;
+    } nashkad_ra valor > 0;
+    nashkad_ra makhan_za delguma {
+        ayanuz_ta mostrar(valor);
+        nashkad_ne;
+    }
+    nashkad_ka 2 delguma {
+        ayanuz_ta akashan_ne "Ola";
+    }
+    ayanuz_ta athara_nu athara_ka(1, 1);
+}

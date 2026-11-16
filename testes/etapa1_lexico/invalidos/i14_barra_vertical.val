@@ -1,0 +1,3 @@
+// objetivo: | não existe (o OR por bit é a palavra ayan_sha)
+// esperado: erro léxico 3:22 caractere inválido: |
+ayan_ka_nu valor = a | b;

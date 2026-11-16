@@ -1,0 +1,7 @@
+// objetivo: Atribuição é comando, não expressão
+// esperado: erro sintático 6:11 mismatched input '='
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    x = y = 1;
+}

@@ -1,0 +1,3 @@
+// objetivo: G não é dígito hexadecimal
+// esperado: erro léxico 3:20 numeral inválido: 0xFG
+ayan_ka_nu valor = 0xFG;

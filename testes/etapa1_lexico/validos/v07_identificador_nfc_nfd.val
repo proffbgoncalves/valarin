@@ -1,0 +1,5 @@
+// objetivo: Identificador acentuado em NFC e em NFD vira o mesmo texto (NFC) no token
+// esperado: ok
+// tokens: IDENTIFIER=café IDENTIFIER=café IDENTIFIER=ação IDENTIFIER=ação
+café café
+ação ação

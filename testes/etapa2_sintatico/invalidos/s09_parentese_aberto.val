@@ -1,0 +1,7 @@
+// objetivo: Parêntese aberto e não fechado
+// esperado: erro sintático 6:30 missing ')'
+makhallam delguma {}
+athara delguma {}
+nashkad delguma {
+    ayan_ka_nu valor = (1 + 2;
+}

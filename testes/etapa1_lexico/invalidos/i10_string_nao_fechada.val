@@ -1,0 +1,3 @@
+// objetivo: String sem aspas de fechamento
+// esperado: erro léxico 3:19 string sem aspas de fechamento ou com escape desconhecido
+ayanuz_ta akashan "Ola;

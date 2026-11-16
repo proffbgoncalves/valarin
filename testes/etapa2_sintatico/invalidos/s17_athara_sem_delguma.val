@@ -1,0 +1,5 @@
+// objetivo: athara sem o marcador delguma
+// esperado: erro sintático 4:8 missing 'delguma'
+makhallam delguma {}
+athara {}
+nashkad delguma {}

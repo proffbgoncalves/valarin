@@ -1,0 +1,3 @@
+// objetivo: Decimal com zero à esquerda é proibido
+// esperado: erro léxico 3:20 numeral inválido: 007
+ayan_ka_nu valor = 007;

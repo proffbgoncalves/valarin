@@ -1,0 +1,3 @@
+// objetivo: Expoente sem dígito (1e+)
+// esperado: erro léxico 3:14 numeral inválido: 1e+
+ullu valor = 1e+;
